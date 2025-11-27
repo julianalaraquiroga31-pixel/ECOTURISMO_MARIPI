@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paneleros - Maripí Ecoturismo | Boyacá</title>
+    <meta name="description" content="Conoce a los productores de panela de Maripí, Boyacá. Tours educativos, proceso tradicional y venta directa del dulce orgullo de la región.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <span class="logo-text">MARIPÍ</span>
+                    <span class="logo-subtitle">BOYACÁ</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <div class="nav-menu" id="nav-menu">
+                <div class="nav-menu" id="nav-menu">
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Servicios</a>
+                    <div class="dropdown-menu">
+                        <a href="hoteles.html" class="dropdown-link">Hoteles</a>
+                        <a href="restaurantes.html" class="dropdown-link">Restaurantes</a>
+                        <a href="transporte.html" class="dropdown-link">Transporte</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Economía Local</a>
+                    <div class="dropdown-menu">
+                        <a href="paneleros.html" class="dropdown-link active">Paneleros</a>
+                        <a href="Celebraciones.html" class="dropdown-link">Celebraciones</a>
+                        <a href="ganaderos.html" class="dropdown-link">Ganaderos</a>
+                        <a href="turismo.html" class="dropdown-link">Turismo</a>
+                        <a href="agronomia.html" class="dropdown-link">agronomia</a>
+                    </div>
+                </div>
+                <a href="index.html#cultura" class="nav-link">Cultura</a>
+                <a href="index.html#galeria" class="nav-link">Galería</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="index.html">Inicio</a>
+            <span class="separator">></span>
+            <span class="current">Paneleros</span>
+        </div>
+    </div>
+
+    <!-- Hero Section Interno -->
+    <section class="internal-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1 class="internal-hero-title">Productores de Panela</h1>
+            <p class="internal-hero-subtitle">El dulce orgullo de Maripí - Tradición familiar que endulza generaciones</p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="main-content">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Paneleros de Maripí</h2>
+                <p class="section-subtitle">Conoce a las familias que mantienen viva la tradición panelera con métodos artesanales transmitidos de generación en generación</p>
+            </div>
+
+            <div class="business-grid">
+                <div class="business-card" data-aos="fade-up">
+                    <div class="business-image">
+                        <img src="images/hero-landscape.jpg" alt="Trapiche Don Carlos">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Trapiche Don Carlos</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">Tradición familiar</span>
+                        </div>
+                        <p>Trapiche familiar con más de 50 años de tradición. Ofrecemos tours educativos y venta directa de panela artesanal.</p>
+                        <div class="business-features">
+                            <span class="feature">🏭 Trapiche tradicional</span>
+                            <span class="feature">👨‍🌾 50+ años experiencia</span>
+                            <span class="feature">🎓 Tours educativos</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Panela: $3.500/libra</div>
+                            <div class="contact-info">
+                                <p>📱 +57 310 234 5678</p>
+                                <p>📧 trapichemaripi@gmail.com</p>
+                                <p>📍 Vereda El Palmar</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Trapiche Don Carlos', '+57 310 234 5678')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="business-image">
+                        <img src="images/maripi-town.jpg" alt="Panelera La Esperanza">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Panelera La Esperanza</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">Certificación orgánica</span>
+                        </div>
+                        <p>Producción orgánica certificada. Especialistas en panela pulverizada y en bloque. Proceso 100% natural.</p>
+                        <div class="business-features">
+                            <span class="feature">🌿 Certificación orgánica</span>
+                            <span class="feature">🍯 Panela pulverizada</span>
+                            <span class="feature">🧱 Panela en bloque</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Panela orgánica: $4.000/libra</div>
+                            <div class="contact-info">
+                                <p>📱 +57 315 876 5432</p>
+                                <p>📧 laesperanza.panela@hotmail.com</p>
+                                <p>📍 Vereda Santa Rosa</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Panelera La Esperanza', '+57 315 876 5432')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="business-image">
+                        <img src="images/ecoturismo.jpg" alt="Dulces Tradiciones">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Dulces Tradiciones</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">Productos derivados</span>
+                        </div>
+                        <p>Especialistas en productos derivados de la panela: melcochas, alfandoques, cocadas y dulces tradicionales.</p>
+                        <div class="business-features">
+                            <span class="feature">🍬 Melcochas artesanales</span>
+                            <span class="feature">🥥 Cocadas tradicionales</span>
+                            <span class="feature">🍯 Alfandoques</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Dulces: $2.000 - $5.000</div>
+                            <div class="contact-info">
+                                <p>📱 +57 320 123 4567</p>
+                                <p>📧 dulcestradiciones@yahoo.com</p>
+                                <p>📍 Centro de Maripí</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Dulces Tradiciones', '+57 320 123 4567')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="business-image">
+                        <img src="images/hero-landscape.jpg" alt="Trapiche Los Andes">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Trapiche Los Andes</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">Mayor productor</span>
+                        </div>
+                        <p>El trapiche más grande de la región. Producción a gran escala manteniendo la calidad artesanal. Distribuimos a nivel nacional.</p>
+                        <div class="business-features">
+                            <span class="feature">🏭 Mayor capacidad</span>
+                            <span class="feature">🚚 Distribución nacional</span>
+                            <span class="feature">📦 Venta al por mayor</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Mayorista: $3.200/libra</div>
+                            <div class="contact-info">
+                                <p>📱 +57 318 765 4321</p>
+                                <p>📧 trapichelosandes@gmail.com</p>
+                                <p>📍 Vereda Los Andes</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Trapiche Los Andes', '+57 318 765 4321')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="business-image">
+                        <img src="images/maripi-town.jpg" alt="Panela Doña María">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Panela Doña María</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">Receta familiar</span>
+                        </div>
+                        <p>Panela artesanal con receta familiar secreta. Conocida por su sabor único y textura perfecta. Ideal para postres.</p>
+                        <div class="business-features">
+                            <span class="feature">👵 Receta secreta</span>
+                            <span class="feature">🍰 Ideal para postres</span>
+                            <span class="feature">🏆 Sabor único</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Panela especial: $4.500/libra</div>
+                            <div class="contact-info">
+                                <p>📱 +57 312 987 6543</p>
+                                <p>📧 paneladonamaria@outlook.com</p>
+                                <p>📍 Vereda La Carrera</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Panela Doña María', '+57 312 987 6543')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="business-image">
+                        <img src="images/ecoturismo.jpg" alt="Cooperativa Panelera">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Cooperativa Panelera Maripí</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">Asociación de productores</span>
+                        </div>
+                        <p>Cooperativa que agrupa a 15 productores locales. Garantiza calidad, precios justos y comercialización conjunta.</p>
+                        <div class="business-features">
+                            <span class="feature">🤝 15 productores</span>
+                            <span class="feature">💰 Precios justos</span>
+                            <span class="feature">✅ Calidad garantizada</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Panela cooperativa: $3.800/libra</div>
+                            <div class="contact-info">
+                                <p>📱 +57 317 234 5678</p>
+                                <p>📧 cooperativapanelera@gmail.com</p>
+                                <p>📍 Centro de Acopio</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Cooperativa Panelera', '+57 317 234 5678')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proceso de Elaboración -->
+            <div class="process-section">
+                <h3>Proceso Tradicional de Elaboración</h3>
+                <div class="process-steps">
+                    <div class="step" data-aos="fade-right">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Corte de Caña</h4>
+                            <p>La caña se corta en el punto óptimo de maduración, generalmente entre 12-18 meses.</p>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-left">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Molienda</h4>
+                            <p>En el trapiche tradicional se extrae el jugo de caña mediante presión mecánica.</p>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-right">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Clarificación</h4>
+                            <p>Se limpia el jugo eliminando impurezas y espumas mediante procesos naturales.</p>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-left">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Concentración</h4>
+                            <p>El jugo se concentra en pailas de cobre hasta alcanzar el punto de panela.</p>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-right">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h4>Moldeo</h4>
+                            <p>La panela líquida se vierte en moldes donde se solidifica y toma su forma final.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tours Disponibles -->
+            <div class="tours-section">
+                <h3>Tours Paneleros Disponibles</h3>
+                <div class="tours-grid">
+                    <div class="tour-card">
+                        <h4>🎓 Tour Educativo Completo</h4>
+                        <p>Conoce todo el proceso desde el cultivo hasta el producto final. Incluye degustación.</p>
+                        <div class="tour-details">
+                            <span>⏰ Duración: 3 horas</span>
+                            <span>💰 Precio: $25.000 por persona</span>
+                            <span>👥 Mínimo: 4 personas</span>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <h4>👨‍🌾 Experiencia de Cosecha</h4>
+                        <p>Participa en el corte de caña y todo el proceso de elaboración. Llévate tu propia panela.</p>
+                        <div class="tour-details">
+                            <span>⏰ Duración: 5 horas</span>
+                            <span>💰 Precio: $40.000 por persona</span>
+                            <span>🎁 Incluye: 2 libras de panela</span>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <h4>🍬 Taller de Dulces</h4>
+                        <p>Aprende a hacer melcochas, alfandoques y otros dulces tradicionales con panela.</p>
+                        <div class="tour-details">
+                            <span>⏰ Duración: 2 horas</span>
+                            <span>💰 Precio: $20.000 por persona</span>
+                            <span>🎁 Incluye: Dulces elaborados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MARIPÍ ECOTURISMO</h3>
+                    <p>Promoviendo el desarrollo sostenible a través del turismo rural en Boyacá.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="hoteles.html">Hoteles</a></li>
+                        <li><a href="restaurantes.html">Restaurantes</a></li>
+                        <li><a href="transporte.html">Transporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Economía Local</h4>
+                    <ul>
+                        <li><a href="paneleros.html">Paneleros</a></li>
+                        <li><a href="cafeteros.html">Cafeteros</a></li>
+                        <li><a href="ganaderos.html">Ganaderos</a></li>
+                        <li><a href="talleres.html">Talleres</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📧 info@maripiecoturismo.com</p>
+                    <p>📱 +57 300 123 4567</p>
+                    <p>📍 Maripí, Boyacá, Colombia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maripí Ecoturismo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

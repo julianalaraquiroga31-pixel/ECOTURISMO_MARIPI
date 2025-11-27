@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurantes - Maripí Ecoturismo | Boyacá</title>
+    <meta name="description" content="Descubre la gastronomía típica de Maripí, Boyacá. Restaurantes familiares especializados en longaniza, sancocho y productos locales.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <span class="logo-text">MARIPÍ</span>
+                    <span class="logo-subtitle">BOYACÁ</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Servicios</a>
+                    <div class="dropdown-menu">
+                        <a href="hoteles.html" class="dropdown-link">Hoteles</a>
+                        <a href="restaurantes.html" class="dropdown-link active">Restaurantes</a>
+                        <a href="transporte.html" class="dropdown-link">Transporte</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Economía Local</a>
+                    <div class="dropdown-menu">
+                        <a href="paneleros.html" class="dropdown-link">Paneleros</a>
+                        <a href="Celebraciones.html" class="dropdown-link">Celebraciones</a>
+                        <a href="ganaderos.html" class="dropdown-link">Ganaderos</a>
+                        <a href="turismo.html" class="dropdown-link">Turismo</a>
+                        <a href="agronomia.html" class="dropdown-link">agronomia</a>
+                    </div>
+                </div>
+                <a href="index.html#cultura" class="nav-link">Cultura</a>
+                <a href="index.html#galeria" class="nav-link">Galería</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="index.html">Inicio</a>
+            <span class="separator">></span>
+            <span class="current">Restaurantes</span>
+        </div>
+    </div>
+
+    <!-- Hero Section Interno -->
+    <section class="internal-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1 class="internal-hero-title">Gastronomía Típica</h1>
+            <p class="internal-hero-subtitle">Sabores auténticos de Maripí - Longaniza, sancocho y tradición culinaria familiar</p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="main-content">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Restaurantes de Maripí</h2>
+                <p class="section-subtitle">Disfruta de la auténtica gastronomía boyacense en restaurantes familiares que preservan las recetas tradicionales</p>
+            </div>
+
+            <div class="business-grid">
+                <div class="business-card" data-aos="fade-up">
+                    <div class="business-image">
+                        <img src="images/hero-landscape.jpg" alt="Restaurante Doña Carmen">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Restaurante Doña Carmen</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.9/5)</span>
+                        </div>
+                        <p>Especialistas en longaniza maripense y sancocho tradicional. Recetas familiares de más de 40 años.</p>
+                        <div class="business-features">
+                            <span class="feature">🌭 Longaniza artesanal</span>
+                            <span class="feature">🍲 Sancocho tradicional</span>
+                            <span class="feature">👵 Recetas familiares</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Platos: $15.000 - $25.000</div>
+                            <div class="contact-info">
+                                <p>📱 +57 310 456 7890</p>
+                                <p>📧 donacarmen.restaurante@gmail.com</p>
+                                <p>🕐 6:00 AM - 8:00 PM</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Restaurante Doña Carmen', '+57 310 456 7890')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="business-image">
+                        <img src="images/maripi-town.jpg" alt="El Fogón de la Abuela">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>El Fogón de la Abuela</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.8/5)</span>
+                        </div>
+                        <p>Cocina a leña tradicional. Especialidad en carnes asadas, arepas boyacenses y postres con panela.</p>
+                        <div class="business-features">
+                            <span class="feature">🔥 Cocina a leña</span>
+                            <span class="feature">🥩 Carnes asadas</span>
+                            <span class="feature">🍯 Postres con panela</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Platos: $12.000 - $30.000</div>
+                            <div class="contact-info">
+                                <p>📱 +57 315 234 5678</p>
+                                <p>📧 fogonabuela@hotmail.com</p>
+                                <p>🕐 7:00 AM - 9:00 PM</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('El Fogón de la Abuela', '+57 315 234 5678')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="business-image">
+                        <img src="images/ecoturismo.jpg" alt="Sabores del Campo">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Sabores del Campo</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.7/5)</span>
+                        </div>
+                        <p>Restaurante campestre con productos 100% orgánicos de la región. Ambiente familiar y natural.</p>
+                        <div class="business-features">
+                            <span class="feature">🌿 Productos orgánicos</span>
+                            <span class="feature">🏞️ Ambiente campestre</span>
+                            <span class="feature">👨‍👩‍👧‍👦 Familiar</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Platos: $18.000 - $28.000</div>
+                            <div class="contact-info">
+                                <p>📱 +57 320 567 8901</p>
+                                <p>📧 saborescampo@yahoo.com</p>
+                                <p>🕐 8:00 AM - 7:00 PM</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Sabores del Campo', '+57 320 567 8901')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="business-image">
+                        <img src="images/hero-landscape.jpg" alt="La Parrilla del Minero">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>La Parrilla del Minero</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.6/5)</span>
+                        </div>
+                        <p>Especialistas en parrilla y carnes a la brasa. Ambiente temático minero con historia de la región.</p>
+                        <div class="business-features">
+                            <span class="feature">🔥 Parrilla especializada</span>
+                            <span class="feature">💎 Temática minera</span>
+                            <span class="feature">🥩 Carnes premium</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Platos: $20.000 - $35.000</div>
+                            <div class="contact-info">
+                                <p>📱 +57 318 345 6789</p>
+                                <p>📧 parrillaминero@gmail.com</p>
+                                <p>🕐 11:00 AM - 10:00 PM</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('La Parrilla del Minero', '+57 318 345 6789')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="business-image">
+                        <img src="images/maripi-town.jpg" alt="Café y Dulces Maripí">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Café y Dulces Maripí</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.9/5)</span>
+                        </div>
+                        <p>Cafetería especializada en café local y repostería con panela. Perfecto para desayunos y meriendas.</p>
+                        <div class="business-features">
+                            <span class="feature">☕ Café local</span>
+                            <span class="feature">🧁 Repostería artesanal</span>
+                            <span class="feature">🍯 Dulces con panela</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Productos: $3.000 - $15.000</div>
+                            <div class="contact-info">
+                                <p>📱 +57 312 678 9012</p>
+                                <p>📧 cafedulcesmaripi@outlook.com</p>
+                                <p>🕐 6:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Café y Dulces Maripí', '+57 312 678 9012')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="business-image">
+                        <img src="images/ecoturismo.jpg" alt="Comedor Popular">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Comedor Popular La Unión</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.5/5)</span>
+                        </div>
+                        <p>Comida casera a precios populares. Menú del día con sopa, seco, arroz, ensalada y bebida.</p>
+                        <div class="business-features">
+                            <span class="feature">🍽️ Menú completo</span>
+                            <span class="feature">💰 Precios populares</span>
+                            <span class="feature">🏠 Comida casera</span>
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Menú del día: $8.000</div>
+                            <div class="contact-info">
+                                <p>📱 +57 317 789 0123</p>
+                                <p>📧 comedorlaunion@gmail.com</p>
+                                <p>🕐 6:00 AM - 3:00 PM</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Comedor La Unión', '+57 317 789 0123')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Platos Típicos -->
+            <div class="dishes-section">
+                <h3>Platos Típicos de Maripí</h3>
+                <div class="dishes-grid">
+                    <div class="dish-card" data-aos="zoom-in">
+                        <div class="dish-icon">🌭</div>
+                        <h4>Longaniza Maripense</h4>
+                        <p>Embutido artesanal elaborado con carne de cerdo, especias locales y técnicas tradicionales. El plato estrella de la región.</p>
+                    </div>
+                    <div class="dish-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="dish-icon">🍲</div>
+                        <h4>Sancocho Boyacense</h4>
+                        <p>Sopa tradicional con carnes variadas, yuca, plátano, mazorca y verduras frescas. Perfecto para compartir en familia.</p>
+                    </div>
+                    <div class="dish-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="dish-icon">🥞</div>
+                        <h4>Arepa Boyacense</h4>
+                        <p>Arepa de maíz amarillo, más gruesa que las tradicionales, perfecta para acompañar cualquier comida.</p>
+                    </div>
+                    <div class="dish-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="dish-icon">🍯</div>
+                        <h4>Postres con Panela</h4>
+                        <p>Variedad de postres tradicionales elaborados con panela local: flan, natilla, arroz con leche y dulces típicos.</p>
+                    </div>
+                    <div class="dish-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="dish-icon">☕</div>
+                        <h4>Café de Altura</h4>
+                        <p>Café cultivado en las montañas de Maripí, con sabor único y aroma intenso. Perfecto para acompañar cualquier momento.</p>
+                    </div>
+                    <div class="dish-card" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="dish-icon">🥛</div>
+                        <h4>Productos Lácteos</h4>
+                        <p>Quesos frescos, cuajada, suero y otros derivados lácteos artesanales de las fincas locales.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Horarios y Recomendaciones -->
+            <div class="recommendations-section">
+                <h3>Recomendaciones Gastronómicas</h3>
+                <div class="recommendations-grid">
+                    <div class="recommendation-card">
+                        <h4>🌅 Desayunos Típicos</h4>
+                        <p>Prueba el desayuno campesino con huevos, arepa, queso fresco y café de la región. Disponible desde las 6:00 AM.</p>
+                        <span class="price-range">$8.000 - $15.000</span>
+                    </div>
+                    <div class="recommendation-card">
+                        <h4>🍽️ Almuerzos Tradicionales</h4>
+                        <p>El sancocho y la longaniza son imperdibles. Muchos restaurantes ofrecen menú ejecutivo completo.</p>
+                        <span class="price-range">$12.000 - $25.000</span>
+                    </div>
+                    <div class="recommendation-card">
+                        <h4>🌙 Cenas Familiares</h4>
+                        <p>Las parrilladas y carnes asadas son perfectas para compartir. Algunos restaurantes abren hasta las 10:00 PM.</p>
+                        <span class="price-range">$15.000 - $35.000</span>
+                    </div>
+                    <div class="recommendation-card">
+                        <h4>🍰 Postres y Meriendas</h4>
+                        <p>No te pierdas los dulces con panela y el café local. Ideales para la tarde en las cafeterías.</p>
+                        <span class="price-range">$3.000 - $12.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MARIPÍ ECOTURISMO</h3>
+                    <p>Promoviendo el desarrollo sostenible a través del turismo rural en Boyacá.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="hoteles.html">Hoteles</a></li>
+                        <li><a href="restaurantes.html">Restaurantes</a></li>
+                        <li><a href="transporte.html">Transporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Economía Local</h4>
+                    <ul>
+                        <li><a href="paneleros.html">Paneleros</a></li>
+                        <li><a href="cafeteros.html">Cafeteros</a></li>
+                        <li><a href="ganaderos.html">Ganaderos</a></li>
+                        <li><a href="talleres.html">Talleres</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📧 info@maripiecoturismo.com</p>
+                    <p>📱 +57 300 123 4567</p>
+                    <p>📍 Maripí, Boyacá, Colombia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maripí Ecoturismo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

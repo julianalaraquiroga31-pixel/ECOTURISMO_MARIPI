@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganaderos Maripí Ecoturismo | Boyacá</title>
+    <meta name="description" content="Conoce a los productores de panela de Maripí, Boyacá. Tours educativos, proceso tradicional y venta directa del dulce orgullo de la región.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <span class="logo-text">MARIPÍ</span>
+                    <span class="logo-subtitle">BOYACÁ</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+               
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Servicios</a>
+                    <div class="dropdown-menu">
+                        <a href="hoteles.html" class="dropdown-link">Hoteles</a>
+                        <a href="restaurantes.html" class="dropdown-link">Restaurantes</a>
+                        <a href="Transporte.html" class="dropdown-link">Transporte</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Economía Local</a>
+                    <div class="dropdown-menu">
+                        <a href="paneleros.html" class="dropdown-link">Paneleros</a>
+                        <a href="Celebraciones.html" class="dropdown-link">Celebraciones</a>
+                        <a href="ganaderos.html" class="dropdown-link active">Ganaderos</a>
+                        <a href="turismo.html" class="dropdown-link">Turismo</a>
+                        <a href="agronomia.html" class="dropdown-link">agronomia</a>
+                    </div>
+                </div>
+                <a href="index.html#cultura" class="nav-link">Cultura</a>
+                <a href="index.html#galeria" class="nav-link">Galería</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="index.html">Inicio</a>
+            <span class="separator">></span>
+            <span class="current">Ganaderos</span>
+        </div>
+    </div>
+
+    <!-- Hero Section Interno -->
+    <section class="internal-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1 class="internal-hero-title">La ganadería</h1>
+            <p class="internal-hero-subtitle">El esfuerzo del campesino - Trabajo </p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="main-content">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ganaderos de Maripí</h2>
+                <p class="section-subtitle">Maripí es un municipio colombiano ubicado en la provincia de Occidente en el departamento de Boyacá. Está situado a 41 km de la ciudad de Chiquinquirá, la capital de la provincia, y a 119 kilómetros de la ciudad de Tunja la capital del departamento. Hasta la década de 1990 su economía era de tipo agropecuario, pero desde entonces, se dio a conocer por el descubrimiento y explotación de nacimientos esmeraldiferos en su territorio. </p>
+            </div>
+
+            <div class="business-grid">
+                <div class="business-card" data-aos="fade-up">
+                    <div class="business-image">
+                        <img src="images/grr.jpg" alt="cabicera de santa barbara ">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>gyr</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">cuidado de produccciòn </span>
+                        </div>
+                        <p>se caracteriza por su adactaciòn al clima tropical, alta producciòn de leche y rusticidad. </p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price">Gyr: $2.500.000</div>
+                            <div class="contact-info">
+                                <p>📍 llano de palmas </p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Trapiche Don Carlos', '+57 310 234 5678')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="business-image">
+                        <img src="images/holstein.jpg" alt="cabicera de santa barbara ">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Holstein </h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">requiere mas cuidado intensivo </span>
+                        </div>
+                        <p>tambien es conocido como frisona, es reconocido mundialmente como la raza lechera mas productiva.</p>                       <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price"> precio:5.000.000</div>
+                            <div class="contact-info">
+                                <p>📍llano de palmas </p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Panelera La Esperanza', '+57 315 876 5432')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="business-image">
+                        <img src="images/brahman rojo.jpg" alt="cabicera santa barbara ">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Bragman </h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">se reconoce como su color llamativo </span>
+                        </div>
+                        <p>son conocidas principalmente conocidas por su resistencia al calor, adaptibilidad a condiciones dificiles y habilidad materna. </p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price"> valor:$ 6.000.000</div>
+                            <div class="contact-info">
+                                <p>📍 llano de palmas </p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Dulces Tradiciones', '+57 320 123 4567')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="business-image">
+                        <img src="images/barsina.jpg" alt="cabicera de santa barbara ">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Barsina</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">Mayor pruccion de leche </span>
+                        </div>
+                        <p>Es una raza bovina de origen español, caracterizada por su pelaje blanco y pardo, a menudo con manchas rojizas, y por su productividad lechera . </p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price">valor:$5.000.000</div>
+                            <div class="contact-info">
+                                <p>📍 llano de palmas </p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Trapiche Los Andes', '+57 318 765 4321')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="business-image">
+                        <img src="images/jersy.jpg" alt="cabicera de snata barbara ">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Jersy</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">se reconoce por lo ser pequeña </span>
+                        </div>
+                        <p>reconocida como una raza lechera , da a conocer por su pequeño tamaño y alta calidad de producto.</p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price">valor:$ 6.000.000</div>
+                            <div class="contact-info">
+                                <p>📍 llano de palmas</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Panela Doña María', '+57 312 987 6543')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="business-image">
+                        <img src="images/pardo suizo.jpg" alt="cabicera de santa barbara ">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Pardo suizo</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text"></span>
+                        </div>
+                        <p> es una raza de ganado lechero de tamaño mediano a grande, conocida por su color marron y glisaceo y su buena produccion de leche .</p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price"> valor:$5.000.000</div>
+                            <div class="contact-info">
+                                <p>📍 llano de palmas </p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Cooperativa Panelera', '+57 317 234 5678')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Proceso de Elaboración -->
+            <div class="process-section">
+                <h3>Proceso de produccion </h3>
+                <div class="process-steps">
+                    <div class="step" data-aos="fade-right">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4> terneros </h4>
+                            <p>se demora 9 meses en dar cria. </p>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-left">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4> cuando da cria. </h4>
+                            <p>se mantiene muy pendiente de la vaca y el ternerito pequeño </p>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-right">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Clasificación</h4>
+                            <p>cuando la vaca este dando cria , en algunas se les ayuda y toca estar pendientes de ellas.</p>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-left">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Concentración</h4>
+                            <p>En la cria se debe tener la mayor intencidad de cuidado </p>
+                        </div>
+                    </div>
+                    <div class="step" data-aos="fade-right">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h4>raza</h4>
+                            <p> depende de la raza en varias razas se crecen los terneros grandes en varias pequeños y duran en crecer por que el clima </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tours Disponibles -->
+            <div class="tours-section">
+                <h3>agroturismo y visitas de fincas ganaderas. </h3>
+                <div class="tours-grid">
+                    <div class="tour-card">
+                        <h4>🎓agroturismo y ganaderia informacion </h4>
+                        <p>Conoce las giras tecnicas ganaderas , ferias ganaderas , dias ganaderos. </p>
+                        <div class="tour-details">
+                            <span>⏰ duracion:20 minutos </span>
+                            <span>👥 Mínimo:2 dos personas.</span>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <h4>👨‍🌾colaboracion. </h4>
+                        <p>Participa en en ayudar de lo que toque que hacer , y lleva un poco de proteina.</p>
+                        <div class="tour-details">
+                            <span>⏰ Duración:15 ,minutos </span>
+                            <span>🎁 Incluye: 1 tazada de proteina</span>
+                        </div>
+                    </div>
+                    <div class="tour-card">
+                        <h4>🍬 raza de terneros </h4>
+                        <p>Aprende a diferenciar la raza de terneros, y a diferencia de si vine bien o mal.</p>
+                        <div class="tour-details">
+                            <span>⏰ Duración: media hora </span>
+                            <span>🎁 Incluye: terneros de clasr </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MARIPÍ ECOTURISMO</h3>
+                    <p>Promoviendo el desarrollo sostenible a través del turismo rural en Boyacá.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="hoteles.html">Hoteles</a></li>
+                        <li><a href="restaurantes.html">Restaurantes</a></li>
+                        <li><a href="transporte.html">Transporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Economía Local</h4>
+                    <ul>
+                        <li><a href="paneleros.html">Paneleros</a></li>
+                        <li><a href="cafeteros.html">Cafeteros</a></li>
+                        <li><a href="ganaderos.html">Ganaderos</a></li>
+                        <li><a href="talleres.html">Talleres</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maripí Ecoturismo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

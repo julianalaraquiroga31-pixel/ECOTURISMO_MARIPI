@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maripí - Ecoturismo y Oportunidades Rurales | Boyacá</title>
+    <meta name="description" content="Descubre Maripí, Boyacá - Un paraíso de ecoturismo que ofrece oportunidades económicas para familias rurales. Explora cascadas, montañas y la rica cultura esmeraldera.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MARIPÍ</span>
+                <span class="logo-subtitle">BOYACÁ</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#ecoturismo" class="nav-link">Ecoturismo</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Servicios</a>
+                    <div class="dropdown-menu">
+                        <a href="hoteles.html" class="dropdown-link">Hoteles</a>
+                        <a href="restaurantes.html" class="dropdown-link">Restaurantes</a>
+                        <a href="Transporte.html" class="dropdown-link">Transporte</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Economía Local</a>
+                    <div class="dropdown-menu">
+                        <a href="paneleros.html" class="dropdown-link">Paneleros</a>
+                        <a href="Celebraciones.html" class="dropdown-link">Celebraciones</a>
+                        <a href="ganaderos.html" class="dropdown-link">Ganaderos</a>
+                        <a href="turismo.html" class="dropdown-link">Turismo</a>
+                        <a href="agronomia.html" class="dropdown-link">agronomia</a>
+                    </div>
+                </div>
+                <a href="rutas.html" class="nav-link">Rutas</a>
+                <a href="#cultura" class="nav-link">Cultura</a>
+                <a href="#galeria" class="nav-link">Galería</a>
+                <a href="contacto.html" class="dropdown-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-video">
+            <div class="video-overlay"></div>
+            <img src="images/maripi-town.png" alt="Paisajes de Maripí" class="hero-bg">
+        </div>
+        <div class="hero-content">
+            <div class="hero-particles"></div>
+            <h1 class="hero-title">
+                <span class="title-main">MARIPÍ</span>
+                <span class="title-subtitle">TIERRA DE ESMERALDAS Y ECOTURISMO</span>
+            </h1>
+            <p class="hero-description">
+                Descubre las oportunidades económicas del turismo rural en el corazón de Boyacá
+            </p>
+            <button class="cta-button" onclick="scrollToSection('ecoturismo')">
+                <span>EXPLORA MARIPÍ</span>
+                <div class="button-glow"></div>
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Sección Ecoturismo -->
+    <section id="ecoturismo" class="section ecoturismo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ecoturismo Sostenible</h2>
+                <p class="section-subtitle">Conecta con la naturaleza y apoya a las comunidades locales</p>
+            </div>
+            <div class="cards-grid">
+                <div class="card neon-card" data-aos="fade-up">
+                    <div class="card-image">
+                        <img src="images/ecoturismo.jpg" alt="Cascadas de Palo Blanco">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Cascadas de Palo Blanco</h3>
+                        <p>Un paraíso natural escondido entre montañas, perfecto para el turismo de aventura y relajación.</p>
+                        <div class="card-features">
+                            <span class="feature">Senderismo</span>
+                            <span class="feature">Fotografía</span>
+                            <span class="feature">Relajación</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card neon-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-image">
+                        <img src="images/marip.png" alt="Pico Yanacá">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Pico Yanacá</h3>
+                        <p>Mirador natural que ofrece vistas panorámicas de la región y avistamiento de fauna nativa.</p>
+                        <div class="card-features">
+                            <span class="feature">Montañismo</span>
+                            <span class="feature">Avistamiento</span>
+                            <span class="feature">Panorámicas</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card neon-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-image">
+                        <img src="images/hero-landscape.jpg" alt="Río Minero">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Río Minero y Vega del Tigre</h3>
+                        <p>Espacios ideales para actividades acuáticas y conexión con la historia minera de la región.</p>
+                        <div class="card-features">
+                            <span class="feature">Pesca</span>
+                            <span class="feature">Historia</span>
+                            <span class="feature">Naturaleza</span>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="card neon-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-image">
+                        <img src="images/paisaje.jpg" alt="Río Minero">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>la casa del aire</h3>
+                        <p>Espacios ideales para actividades acuáticas y conexión con la historia minera de la región.</p>
+                        <div class="card-features">
+                            <span class="feature">senderismo</span>
+                            <span class="feature">Historia</span>
+                            <span class="feature">Naturaleza</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Oportunidades Económicas -->
+    <section id="oportunidades" class="section oportunidades">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Oportunidades para Familias Rurales</h2>
+                <p class="section-subtitle">El ecoturismo como motor de desarrollo económico local</p>
+            </div>
+            <div class="opportunities-grid">
+                <div class="opportunity-item" data-aos="slide-right">
+                    <div class="opportunity-icon">
+                        <div class="icon-glow"></div>
+                        🗺️
+                    </div>
+                    <div class="opportunity-content">
+                        <h3>Guías Turísticos Locales</h3>
+                        <p>Capacitación y certificación para habitantes locales como guías especializados en ecoturismo.</p>
+                        <div class="opportunity-benefits">
+                            <span>Ingresos estables</span>
+                            <span>Preservación cultural</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="opportunity-item" data-aos="slide-left">
+                    <div class="opportunity-icon">
+                        <div class="icon-glow"></div>
+                        🏠
+                    </div>
+                    <div class="opportunity-content">
+                        <h3>Hospedaje Rural</h3>
+                        <p>Desarrollo de posadas familiares y alojamientos rurales auténticos.</p>
+                        <div class="opportunity-benefits">
+                            <span>Turismo vivencial</span>
+                            <span>Ingresos familiares</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="opportunity-item" data-aos="slide-right">
+                    <div class="opportunity-icon">
+                        <div class="icon-glow"></div>
+                        🍽️
+                    </div>
+                    <div class="opportunity-content">
+                        <h3>Gastronomía Típica</h3>
+                        <p>Restaurantes familiares especializados en longaniza, sancocho y productos locales.</p>
+                        <div class="opportunity-benefits">
+                            <span>Tradición culinaria</span>
+                            <span>Productos locales</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="opportunity-item" data-aos="slide-left">
+                    <div class="opportunity-icon">
+                        <div class="icon-glow"></div>
+                        🎨
+                    </div>
+                    <div class="opportunity-content">
+                        <h3>Artesanías Locales</h3>
+                        <p>Talleres de artesanías tradicionales y productos únicos de la región.</p>
+                        <div class="opportunity-benefits">
+                            <span>Arte tradicional</span>
+                            <span>Souvenirs únicos</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="opportunity-item" data-aos="slide-right">
+                    <div class="opportunity-icon">
+                        <div class="icon-glow"></div>
+                        🍯
+                    </div>
+                    <div class="opportunity-content">
+                        <h3>Producción de Panela</h3>
+                        <p>Tours educativos y venta directa de panela artesanal, el dulce orgullo de Maripí.</p>
+                        <div class="opportunity-benefits">
+                            <span>Turismo educativo</span>
+                            <span>Producto estrella</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="opportunity-item" data-aos="slide-left">
+                    <div class="opportunity-icon">
+                        <div class="icon-glow"></div>
+                        💎
+                    </div>
+                    <div class="opportunity-content">
+                        <h3>Tours de Minas de Esmeraldas</h3>
+                        <p>Experiencias únicas visitando minas artesanales y aprendiendo sobre la cultura esmeraldera.</p>
+                        <div class="opportunity-benefits">
+                            <span>Historia minera</span>
+                            <span>Experiencia única</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Cultura -->
+    <section id="cultura" class="section cultura">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Cultura y Tradición</h2>
+                <p class="section-subtitle">Descubre la rica herencia cultural de Maripí</p>
+            </div>
+            <div class="culture-timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Fiestas Maripenses</h3>
+                        <p>Celebraciones tradicionales que mantienen viva la cultura local con música, danza y gastronomía.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Reinado de la Panela</h3>
+                        <p>Festival anual que celebra el producto más emblemático de Maripí y su importancia económica.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Historia de Fura y Tena</h3>
+                        <p>Leyenda indígena que cuenta el origen de las esmeraldas y la conexión ancestral con la tierra.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Casa del Aire</h3>
+                        <p>Mirador natural desde donde se pueden apreciar los cerros de Fura y Tena.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="section galeria">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Galería Visual</h2>
+                <p class="section-subtitle">Imágenes que capturan la belleza de Maripí</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in">
+                    <img src="images/hero-landscape.jpg" alt="Paisajes de Maripí">
+                    <div class="gallery-overlay">
+                        <span>Paisajes Naturales</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="images/maripi-town.jpg" alt="Pueblo de Maripí">
+                    <div class="gallery-overlay">
+                        <span>Arquitectura Local</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/ecoturismo.jpg" alt="Ecoturismo en Maripí">
+                    <div class="gallery-overlay">
+                        <span>Actividades Ecoturísticas</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Visítanos</h2>
+                <p class="section-subtitle">Planifica tu viaje a Maripí</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3>📍 Ubicación</h3>
+                        <p>Maripí, Boyacá, Colombia<br>
+                        Provincia de Occidente<br>
+                        A 41 km de Chiquinquirá</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🌡️ Clima</h3>
+                        <p>Clima templado<br>
+                        Temperatura promedio: 18-24°C<br>
+                        Ideal todo el año</p>
+                    </div>
+                    <div class="info-item">
+                        <h3>🚗 Cómo llegar</h3>
+                        <p>Desde Bogotá: 151 km<br>
+                        Desde Chiquinquirá: 41 km<br>
+                        Transporte público disponible</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensaje" name="mensaje" placeholder="¿Qué te interesa conocer de Maripí?" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            <span>Enviar Consulta</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MARIPÍ ECOTURISMO</h3>
+                    <p>Promoviendo el desarrollo sostenible a través del turismo rural en Boyacá.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#ecoturismo">Ecoturismo</a></li>
+                        <li><a href="#oportunidades">Oportunidades</a></li>
+                        <li><a href="#cultura">Cultura</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📧 info@maripiecoturismo.com</p>
+                    <p>📱 +57 300 123 4567</p>
+                    <p>📍 Maripí, Boyacá, Colombia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maripí Ecoturismo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

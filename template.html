@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}} - Maripí Ecoturismo | Boyacá</title>
+    <meta name="description" content="{{DESCRIPTION}}">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <span class="logo-text">MARIPÍ</span>
+                    <span class="logo-subtitle">BOYACÁ</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Servicios</a>
+                    <div class="dropdown-menu">
+                        <a href="hoteles.html" class="dropdown-link">Hoteles</a>
+                        <a href="restaurantes.html" class="dropdown-link">Restaurantes</a>
+                        <a href="transporte.html" class="dropdown-link">Transporte</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Economía Local</a>
+                    <div class="dropdown-menu">
+                        <a href="paneleros.html" class="dropdown-link">Paneleros</a>
+                        <a href="cafeteros.html" class="dropdown-link">Cafeteros</a>
+                        <a href="ganaderos.html" class="dropdown-link">Ganaderos</a>
+                        <a href="talleres.html" class="dropdown-link">Talleres</a>
+                        <a href="almacenes.html" class="dropdown-link">Almacenes</a>
+                    </div>
+                </div>
+                <a href="index.html#cultura" class="nav-link">Cultura</a>
+                <a href="index.html#galeria" class="nav-link">Galería</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="index.html">Inicio</a>
+            <span class="separator">></span>
+            <span class="current">{{BREADCRUMB}}</span>
+        </div>
+    </div>
+
+    <!-- Hero Section Interno -->
+    <section class="internal-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1 class="internal-hero-title">{{HERO_TITLE}}</h1>
+            <p class="internal-hero-subtitle">{{HERO_SUBTITLE}}</p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="main-content">
+        <div class="container">
+            {{MAIN_CONTENT}}
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MARIPÍ ECOTURISMO</h3>
+                    <p>Promoviendo el desarrollo sostenible a través del turismo rural en Boyacá.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="hoteles.html">Hoteles</a></li>
+                        <li><a href="restaurantes.html">Restaurantes</a></li>
+                        <li><a href="transporte.html">Transporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Economía Local</h4>
+                    <ul>
+                        <li><a href="paneleros.html">Paneleros</a></li>
+                        <li><a href="cafeteros.html">Cafeteros</a></li>
+                        <li><a href="ganaderos.html">Ganaderos</a></li>
+                        <li><a href="talleres.html">Talleres</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📧 info@maripiecoturismo.com</p>
+                    <p>📱 +57 300 123 4567</p>
+                    <p>📍 Maripí, Boyacá, Colombia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maripí Ecoturismo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

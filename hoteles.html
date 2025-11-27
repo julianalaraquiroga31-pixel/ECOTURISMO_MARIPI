@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoteles y Hospedajes - Maripí Ecoturismo | Boyacá</title>
+    <meta name="description" content="Descubre los mejores hoteles y hospedajes rurales en Maripí, Boyacá. Posadas familiares y cabañas ecoturísticas para una experiencia auténtica.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <span class="logo-text">MARIPÍ</span>
+                    <span class="logo-subtitle">BOYACÁ</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Servicios</a>
+                    <div class="dropdown-menu">
+                        <a href="hoteles.html" class="dropdown-link active">Hoteles</a>
+                        <a href="restaurantes.html" class="dropdown-link">Restaurantes</a>
+                        <a href="transporte.html" class="dropdown-link">Transporte</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Economía Local</a>
+                    <div class="dropdown-menu">
+                        <a href="paneleros.html" class="dropdown-link">Paneleros</a>
+                        <a href="Celebraciones.html" class="dropdown-link">Celebraciones</a>
+                        <a href="ganaderos.html" class="dropdown-link">Ganaderos</a>
+                        <a href="turismo.html" class="dropdown-link">Turismo</a>
+                        <a href="agronomia.html" class="dropdown-link">agronomia</a>
+                    </div>
+                </div>
+                <a href="index.html#cultura" class="nav-link">Cultura</a>
+                <a href="index.html#galeria" class="nav-link">Galería</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="index.html">Inicio</a>
+            <span class="separator">></span>
+            <span class="current">Hoteles</span>
+        </div>
+    </div>
+
+    <!-- Hero Section Interno -->
+    <section class="internal-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1 class="internal-hero-title">Hoteles y Hospedajes</h1>
+            <p class="internal-hero-subtitle">Experimenta la hospitalidad auténtica de Maripí en nuestros hospedajes rurales</p>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="main-content">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Hospedajes Disponibles</h2>
+                <p class="section-subtitle">Desde posadas familiares hasta cabañas ecoturísticas, encuentra el alojamiento perfecto para tu estadía</p>
+            </div>
+
+            <div class="business-grid">
+                <div class="business-card" data-aos="fade-up">
+                    <div class="business-image">
+                        <img src= alt="Posada Familiar El Palmar">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Posada Familiar El Palmar</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.8/5)</span>
+                        </div>
+                        <p>Hospedaje familiar tradicional con vista a las montañas. Incluye desayuno típico y acceso a actividades rurales.</p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price">$80.000 COP/noche</div>
+                            <div class="contact-info">
+                                <p>📱 +57 310 123 4567</p>
+                                <p>📧 posadaelpalmar@gmail.com</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Posada El Palmar', '+57 310 123 4567')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="business-image">
+                        <img src=alt="Cabañas Santa Bárbara">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Cabañas Santa Bárbara</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.9/5)</span>
+                        </div>
+                        <p>Cabañas ecológicas construidas con materiales locales, perfectas para desconectarse y disfrutar la naturaleza.</p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price">$120.000 COP/noche</div>
+                            <div class="contact-info">
+                                <p>📱 +57 315 987 6543</p>
+                                <p>📧 santabarbara.cabanas@gmail.com</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Cabañas Santa Bárbara', '+57 315 987 6543')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="business-image">
+                        <img src= alt="Finca Hotel Yanacá">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Finca Hotel Yanacá</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.7/5)</span>
+                        </div>
+                        <p>Finca tradicional convertida en hotel rural. Ofrece experiencias agrícolas y tours guiados por la región.</p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price">$95.000 COP/noche</div>
+                            <div class="contact-info">
+                                <p>📱 +57 320 456 7890</p>
+                                <p>📧 fincayanaca@hotmail.com</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Finca Hotel Yanacá', '+57 320 456 7890')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="business-image">
+                        <img src=alt="Casa Rural Fura y Tena">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Casa Rural Fura y Tena</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.8/5)</span>
+                        </div>
+                        <p>Casa colonial restaurada con historia. Ideal para familias que buscan tranquilidad y conexión cultural.</p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price">$70.000 COP/noche</div>
+                            <div class="contact-info">
+                                <p>📱 +57 318 234 5678</p>
+                                <p>📧 casafuraytena@yahoo.com</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Casa Rural Fura y Tena', '+57 318 234 5678')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="business-image">
+                        <img src=alt="Hostal del Minero">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Hostal del Minero</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.6/5)</span>
+                        </div>
+                        <p>Hostal temático sobre la historia minera de Maripí. Ubicado en el centro del pueblo, cerca de todos los servicios.</p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price">$60.000 COP/noche</div>
+                            <div class="contact-info">
+                                <p>📱 +57 312 345 6789</p>
+                                <p>📧 hostalminero@gmail.com</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Hostal del Minero', '+57 312 345 6789')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="business-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="business-image">
+                        <img src=alt="Glamping Cascadas">
+                        <div class="business-overlay"></div>
+                    </div>
+                    <div class="business-content">
+                        <h3>Glamping Cascadas</h3>
+                        <div class="business-rating">
+                            <span class="stars">⭐⭐⭐⭐⭐</span>
+                            <span class="rating-text">(4.9/5)</span>
+                        </div>
+                        <p>Experiencia de glamping cerca de las Cascadas de Palo Blanco. Lujo y naturaleza en perfecta armonía.</p>
+                        <div class="business-features">
+                        </div>
+                        <div class="business-info">
+                            <div class="price">$150.000 COP/noche</div>
+                            <div class="contact-info">
+                                <p>📱 +57 317 890 1234</p>
+                                <p>📧 glampingcascadas@outlook.com</p>
+                            </div>
+                        </div>
+                        <button class="contact-button" onclick="contactBusiness('Glamping Cascadas', '+57 317 890 1234')">
+                            <span>Contactar</span>
+                            <div class="button-glow"></div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Información Adicional -->
+            <div class="additional-info">
+                <div class="info-section">
+                    <h3>Información para Huéspedes</h3>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <h4>🕐 Check-in / Check-out</h4>
+                            <p>Check-in: 2:00 PM<br>Check-out: 12:00 PM</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>🍽️ Alimentación</h4>
+                            <p>La mayoría incluye desayuno típico. Consulta opciones de almuerzo y cena.</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>🚗 Transporte</h4>
+                            <p>Algunos hospedajes ofrecen transporte desde el terminal. Consulta disponibilidad.</p>
+                        </div>
+                        <div class="info-item">
+                            <h4>📶 Conectividad</h4>
+                            <p>WiFi disponible en la mayoría. Señal móvil variable según ubicación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MARIPÍ ECOTURISMO</h3>
+                    <p>Promoviendo el desarrollo sostenible a través del turismo rural en Boyacá.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="hoteles.html">Hoteles</a></li>
+                        <li><a href="restaurantes.html">Restaurantes</a></li>
+                        <li><a href="transporte.html">Transporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Economía Local</h4>
+                    <ul>
+                        <li><a href="paneleros.html">Paneleros</a></li>
+                        <li><a href="cafeteros.html">Cafeteros</a></li>
+                        <li><a href="ganaderos.html">Ganaderos</a></li>
+                        <li><a href="talleres.html">Talleres</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📧 </p>
+                    <p>📱 </p>
+                    <p>📍 </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maripí Ecoturismo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rutas y Senderos - Maripí Ecoturismo | Boyacá</title>
+    <meta name="description" content="Descubre las rutas, senderos y caminos de Maripí, Boyacá. Mapas interactivos y guías para llegar a cada destino turístico.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" style="text-decoration: none; color: inherit;">
+                    <span class="logo-text">MARIPÍ</span>
+                    <span class="logo-subtitle">BOYACÁ</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Inicio</a>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Servicios</a>
+                    <div class="dropdown-menu">
+                        <a href="hoteles.html" class="dropdown-link">Hoteles</a>
+                        <a href="restaurantes.html" class="dropdown-link">Restaurantes</a>
+                        <a href="Transporte.html" class="dropdown-link">Transporte</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#" class="nav-link dropdown-toggle">Economía Local</a>
+                    <div class="dropdown-menu">
+                        <a href="paneleros.html" class="dropdown-link">Paneleros</a>
+                        <a href="cafeteros.html" class="dropdown-link">Cafeteros</a>
+                        <a href="ganaderos.html" class="dropdown-link">Ganaderos</a>
+                        <a href="talleres.html" class="dropdown-link">Talleres</a>
+                        <a href="almacenes.html" class="dropdown-link">agronomia</a>
+                    </div>
+                </div>
+                <a href="rutas.html" class="nav-link active">Rutas</a>
+                <a href="index.html#cultura" class="nav-link">Cultura</a>
+                <a href="index.html#galeria" class="nav-link">Galería</a>
+                <a href="index.html#contacto" class="nav-link">Contacto</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="index.html">Inicio</a>
+            <span class="separator">></span>
+            <span class="current">Rutas y Senderos</span>
+        </div>
+    </div>
+
+    <!-- Hero Section Interno -->
+    <section class="internal-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <h1 class="internal-hero-title">Rutas y Senderos</h1>
+            <p class="internal-hero-subtitle">Descubre los caminos que conectan la naturaleza, la cultura y las oportunidades de Maripí</p>
+        </div>
+    </section>
+
+    <!-- Mapa Interactivo -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mapa Interactivo de Maripí</h2>
+                <p class="section-subtitle">Explora las rutas principales, veredas y puntos de interés turístico</p>
+            </div>
+            
+            <div class="map-container">
+                <div class="interactive-map">
+                    <div class="map-overlay">
+                        <div class="map-legend">
+                            <h4>Leyenda</h4>
+                            <div class="legend-item">
+                                <span class="legend-color tourist"></span>
+                                <span>Sitios Turísticos</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color economic"></span>
+                                <span>Actividades Económicas</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color services"></span>
+                                <span>Servicios</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color roads"></span>
+                                <span>Vías Principales</span>
+                            </div>
+                            <div class="legend-item">
+                                <span class="legend-color trails"></span>
+                                <span>Senderos</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Puntos de interés en el mapa -->
+                    <div class="map-point tourist-point" style="top: 20%; left: 30%;" data-info="Cascadas de Palo Blanco">
+                        <div class="point-marker">🏞️</div>
+                        <div class="point-tooltip">Cascadas de Palo Blanco</div>
+                    </div>
+                    
+                    <div class="map-point tourist-point" style="top: 15%; left: 60%;" data-info="Pico Yanacá">
+                        <div class="point-marker">⛰️</div>
+                        <div class="point-tooltip">Pico Yanacá</div>
+                    </div>
+                    
+                    <div class="map-point economic-point" style="top: 40%; left: 25%;" data-info="Minas de Esmeraldas">
+                        <div class="point-marker">💎</div>
+                        <div class="point-tooltip">Minas de Esmeraldas</div>
+                    </div>
+                    
+                    <div class="map-point services-point" style="top: 50%; left: 50%;" data-info="Centro de Maripí">
+                        <div class="point-marker">🏛️</div>
+                        <div class="point-tooltip">Centro de Maripí</div>
+                    </div>
+                    
+                    <div class="map-point economic-point" style="top: 60%; left: 35%;" data-info="Trapiches Paneleros">
+                        <div class="point-marker">🏭</div>
+                        <div class="point-tooltip">Trapiches Paneleros</div>
+                    </div>
+                    
+                    <div class="map-point economic-point" style="top: 30%; left: 70%;" data-info="Fincas Cafeteras">
+                        <div class="point-marker">☕</div>
+                        <div class="point-tooltip">Fincas Cafeteras</div>
+                    </div>
+                    
+                    <div class="map-point tourist-point" style="top: 70%; left: 60%;" data-info="Río Minero">
+                        <div class="point-marker">🌊</div>
+                        <div class="point-tooltip">Río Minero</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rutas Principales -->
+    <section class="main-content">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Rutas Principales</h2>
+                <p class="section-subtitle">Conoce las principales vías de acceso y rutas internas de Maripí</p>
+            </div>
+
+            <div class="routes-grid">
+                <div class="route-card" data-aos="fade-up">
+                    <div class="route-header">
+                        <div class="route-icon">🛣️</div>
+                        <h3>Ruta desde Chiquinquirá</h3>
+                        <span class="route-distance">41 km - 1 hora</span>
+                    </div>
+                    <div class="route-content">
+                        <div class="route-description">
+                            <p>Principal vía de acceso a Maripí desde la capital religiosa de Boyacá.</p>
+                        </div>
+                        <div class="route-steps">
+                            <div class="step-item">
+                                <span class="step-number">1</span>
+                                <span class="step-text">Salir de Chiquinquirá por la vía a Caldas</span>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">2</span>
+                                <span class="step-text">Continuar por 35 km hasta el desvío a Maripí</span>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">3</span>
+                                <span class="step-text">Tomar desvío a la derecha (6 km)</span>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">4</span>
+                                <span class="step-text">Llegar al centro de Maripí</span>
+                            </div>
+                        </div>
+                        <div class="route-info">
+                            <div class="info-item">
+                                <span class="info-label">Estado:</span>
+                                <span class="info-value good">Pavimentada</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Transporte:</span>
+                                <span class="info-value">Buses cada 2 horas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="route-header">
+                        <div class="route-icon">🚌</div>
+                        <h3>Ruta desde Tunja</h3>
+                        <span class="route-distance">85 km - 2 horas</span>
+                    </div>
+                    <div class="route-content">
+                        <div class="route-description">
+                            <p>Conexión desde la capital de Boyacá pasando por Chiquinquirá.</p>
+                        </div>
+                        <div class="route-steps">
+                            <div class="step-item">
+                                <span class="step-number">1</span>
+                                <span class="step-text">Salir de Tunja hacia Chiquinquirá (44 km)</span>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">2</span>
+                                <span class="step-text">Seguir ruta Chiquinquirá-Maripí</span>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">3</span>
+                                <span class="step-text">Total: 85 km aproximadamente</span>
+                            </div>
+                        </div>
+                        <div class="route-info">
+                            <div class="info-item">
+                                <span class="info-label">Estado:</span>
+                                <span class="info-value good">Excelente</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Transporte:</span>
+                                <span class="info-value">Buses directos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="route-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="route-header">
+                        <div class="route-icon">🚗</div>
+                        <h3>Ruta desde Bogotá</h3>
+                        <span class="route-distance">130 km - 2.5 horas</span>
+                    </div>
+                    <div class="route-content">
+                        <div class="route-description">
+                            <p>Viaje directo desde la capital del país por autopista.</p>
+                        </div>
+                        <div class="route-steps">
+                            <div class="step-item">
+                                <span class="step-number">1</span>
+                                <span class="step-text">Autopista Norte hasta Tunja (130 km)</span>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">2</span>
+                                <span class="step-text">Continuar ruta Tunja-Chiquinquirá</span>
+                            </div>
+                            <div class="step-item">
+                                <span class="step-number">3</span>
+                                <span class="step-text">Seguir hasta Maripí</span>
+                            </div>
+                        </div>
+                        <div class="route-info">
+                            <div class="info-item">
+                                <span class="info-label">Estado:</span>
+                                <span class="info-value excellent">Autopista</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Peajes:</span>
+                                <span class="info-value">2 peajes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Veredas y Senderos -->
+            <div class="veredas-section">
+                <h3>Veredas y Senderos Turísticos</h3>
+                <div class="veredas-grid">
+                    <div class="vereda-card" data-aos="fade-right">
+                        <div class="vereda-header">
+                            <h4>🏞️ Vereda El Palmar</h4>
+                            <span class="difficulty easy">Fácil</span>
+                        </div>
+                        <div class="vereda-content">
+                            <p>Acceso principal a las Cascadas de Palo Blanco y trapiches paneleros.</p>
+                            <div class="vereda-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Distancia desde centro: 8 km</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">⏱️</span>
+                                    <span>Tiempo: 20 minutos en vehículo</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🛤️</span>
+                                    <span>Vía: Destapada en buen estado</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🎯</span>
+                                    <span>Atractivos: Cascadas, trapiches, hospedajes</span>
+                                </div>
+                            </div>
+                            <button class="route-button" onclick="showRoute('palmar')">Ver Ruta Detallada</button>
+                        </div>
+                    </div>
+
+                    <div class="vereda-card" data-aos="fade-left">
+                        <div class="vereda-header">
+                            <h4>⛰️ Sendero Pico Yanacá</h4>
+                            <span class="difficulty hard">Difícil</span>
+                        </div>
+                        <div class="vereda-content">
+                            <p>Sendero de montaña hacia el punto más alto de la región.</p>
+                            <div class="vereda-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Distancia: 12 km (ida)</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">⏱️</span>
+                                    <span>Tiempo: 4-5 horas caminando</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🛤️</span>
+                                    <span>Sendero: Montañoso, requiere guía</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🎯</span>
+                                    <span>Atractivos: Panorámicas, flora, fauna</span>
+                                </div>
+                            </div>
+                            <button class="route-button" onclick="showRoute('yanaca')">Ver Ruta Detallada</button>
+                        </div>
+                    </div>
+
+                    <div class="vereda-card" data-aos="fade-right">
+                        <div class="vereda-header">
+                            <h4>💎 Vereda Las Minas</h4>
+                            <span class="difficulty medium">Moderado</span>
+                        </div>
+                        <div class="vereda-content">
+                            <p>Ruta hacia las minas de esmeraldas y sitios de extracción histórica.</p>
+                            <div class="vereda-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Distancia desde centro: 15 km</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">⏱️</span>
+                                    <span>Tiempo: 35 minutos en vehículo</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🛤️</span>
+                                    <span>Vía: Destapada, requiere 4x4</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🎯</span>
+                                    <span>Atractivos: Minas, historia, geología</span>
+                                </div>
+                            </div>
+                            <button class="route-button" onclick="showRoute('minas')">Ver Ruta Detallada</button>
+                        </div>
+                    </div>
+
+                    <div class="vereda-card" data-aos="fade-left">
+                        <div class="vereda-header">
+                            <h4>🌊 Sendero Río Minero</h4>
+                            <span class="difficulty easy">Fácil</span>
+                        </div>
+                        <div class="vereda-content">
+                            <p>Caminata ecológica siguiendo el curso del río principal.</p>
+                            <div class="vereda-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Distancia: 6 km (circular)</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">⏱️</span>
+                                    <span>Tiempo: 2-3 horas caminando</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🛤️</span>
+                                    <span>Sendero: Plano, bien marcado</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🎯</span>
+                                    <span>Atractivos: Río, aves, pesca</span>
+                                </div>
+                            </div>
+                            <button class="route-button" onclick="showRoute('rio')">Ver Ruta Detallada</button>
+                        </div>
+                    </div>
+
+                    <div class="vereda-card" data-aos="fade-right">
+                        <div class="vereda-header">
+                            <h4>☕ Ruta del Café</h4>
+                            <span class="difficulty easy">Fácil</span>
+                        </div>
+                        <div class="vereda-content">
+                            <p>Circuito por las fincas cafeteras de las veredas altas.</p>
+                            <div class="vereda-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Distancia: 25 km (circuito)</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">⏱️</span>
+                                    <span>Tiempo: Día completo</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🛤️</span>
+                                    <span>Vía: Mixta, vehículo recomendado</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🎯</span>
+                                    <span>Atractivos: Fincas, proceso, degustación</span>
+                                </div>
+                            </div>
+                            <button class="route-button" onclick="showRoute('cafe')">Ver Ruta Detallada</button>
+                        </div>
+                    </div>
+
+                    <div class="vereda-card" data-aos="fade-left">
+                        <div class="vereda-header">
+                            <h4>🏭 Ruta de la Panela</h4>
+                            <span class="difficulty easy">Fácil</span>
+                        </div>
+                        <div class="vereda-content">
+                            <p>Tour por los trapiches tradicionales y proceso de elaboración.</p>
+                            <div class="vereda-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Distancia: 18 km (circuito)</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">⏱️</span>
+                                    <span>Tiempo: Medio día</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🛤️</span>
+                                    <span>Vía: Destapada transitable</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🎯</span>
+                                    <span>Atractivos: Trapiches, proceso, degustación</span>
+                                </div>
+                            </div>
+                            <button class="route-button" onclick="showRoute('panela')">Ver Ruta Detallada</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Información de Transporte -->
+            <div class="transport-info">
+                <h3>Información de Transporte</h3>
+                <div class="transport-grid">
+                    <div class="transport-card">
+                        <div class="transport-icon">🚌</div>
+                        <h4>Transporte Público</h4>
+                        <div class="transport-details">
+                            <p><strong>Desde Chiquinquirá:</strong></p>
+                            <p>Buses cada 2 horas (6:00 AM - 6:00 PM)</p>
+                            <p>Tarifa: $8.000 COP</p>
+                            <p>Duración: 1 hora</p>
+                        </div>
+                        <div class="transport-details">
+                            <p><strong>Desde Tunja:</strong></p>
+                            <p>Buses directos 3 veces al día</p>
+                            <p>Tarifa: $15.000 COP</p>
+                            <p>Duración: 2 horas</p>
+                        </div>
+                    </div>
+
+                    <div class="transport-card">
+                        <div class="transport-icon">🚗</div>
+                        <h4>Vehículo Particular</h4>
+                        <div class="transport-details">
+                            <p><strong>Combustible:</strong></p>
+                            <p>Estación de servicio en el centro</p>
+                            <p>Precio promedio: $14.000/galón</p>
+                        </div>
+                        <div class="transport-details">
+                            <p><strong>Parqueadero:</strong></p>
+                            <p>Parque principal: Gratuito</p>
+                            <p>Hoteles: Incluido</p>
+                        </div>
+                    </div>
+
+                    <div class="transport-card">
+                        <div class="transport-icon">🏍️</div>
+                        <h4>Mototaxis Locales</h4>
+                        <div class="transport-details">
+                            <p><strong>Dentro del pueblo:</strong></p>
+                            <p>Tarifa: $2.000 - $5.000 COP</p>
+                            <p>Disponible todo el día</p>
+                        </div>
+                        <div class="transport-details">
+                            <p><strong>A veredas cercanas:</strong></p>
+                            <p>Tarifa: $10.000 - $20.000 COP</p>
+                            <p>Negociable según distancia</p>
+                        </div>
+                    </div>
+
+                    <div class="transport-card">
+                        <div class="transport-icon">🚙</div>
+                        <h4>Tours Organizados</h4>
+                        <div class="transport-details">
+                            <p><strong>Tours de día completo:</strong></p>
+                            <p>Incluye transporte y guía</p>
+                            <p>Precio: $80.000 - $120.000 por persona</p>
+                        </div>
+                        <div class="transport-details">
+                            <p><strong>Contacto:</strong></p>
+                            <p>📱 +57 300 123 4567</p>
+                            <p>Reservas con anticipación</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recomendaciones -->
+            <div class="recommendations">
+                <h3>Recomendaciones para el Viaje</h3>
+                <div class="recommendations-list">
+                    <div class="recommendation-item" data-aos="fade-up">
+                        <div class="rec-icon">🧳</div>
+                        <div class="rec-content">
+                            <h4>Qué llevar</h4>
+                            <p>Ropa cómoda, zapatos de caminata, protector solar, repelente, cámara fotográfica y ropa de abrigo para la noche.</p>
+                        </div>
+                    </div>
+                    <div class="recommendation-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="rec-icon">🌤️</div>
+                        <div class="rec-content">
+                            <h4>Mejor época</h4>
+                            <p>Todo el año es bueno para visitar. Temporada seca (diciembre-marzo) ideal para senderismo. Temporada de lluvias (abril-noviembre) perfecta para cascadas.</p>
+                        </div>
+                    </div>
+                    <div class="recommendation-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="rec-icon">📱</div>
+                        <div class="rec-content">
+                            <h4>Conectividad</h4>
+                            <p>Señal móvil variable en veredas. Descarga mapas offline. WiFi disponible en hoteles y restaurantes del centro.</p>
+                        </div>
+                    </div>
+                    <div class="recommendation-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="rec-icon">🏥</div>
+                        <div class="rec-content">
+                            <h4>Seguridad</h4>
+                            <p>Centro de salud en el pueblo. Para senderos difíciles, contratar guía local. Informar itinerario en el hotel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MARIPÍ ECOTURISMO</h3>
+                    <p>Promoviendo el desarrollo sostenible a través del turismo rural en Boyacá.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="hoteles.html">Hoteles</a></li>
+                        <li><a href="restaurantes.html">Restaurantes</a></li>
+                        <li><a href="Transporte.html">Transporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Economía Local</h4>
+                    <ul>
+                        <li><a href="paneleros.html">Paneleros</a></li>
+                        <li><a href="cafeteros.html">Cafeteros</a></li>
+                        <li><a href="ganaderos.html">Ganaderos</a></li>
+                        <li><a href="talleres.html">Talleres</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>📧 info@maripiecoturismo.com</p>
+                    <p>📱 +57 300 123 4567</p>
+                    <p>📍 Maripí, Boyacá, Colombia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Maripí Ecoturismo. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/routes.js"></script>
+</body>
+</html>
+
